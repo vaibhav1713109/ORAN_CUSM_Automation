@@ -1,0 +1,14 @@
+[DEFAULT]
+test model = 3.1a
+subcarrier spacing = 30KHz
+duplex type = FDD
+downlink center frequency in ghz = 2.14
+uplink center frequency in ghz = 1.95
+power in dbm = -60
+bandwidths (split with '/') = 100M
+phase compensation = Auto
+vxt address = TCPIP::172.17.95.2::hislip0::INSTR
+eaxid = 1
+folder path to save results = C:\ORAN_AUTOMATION\Result
+external gain dbm = 42
+

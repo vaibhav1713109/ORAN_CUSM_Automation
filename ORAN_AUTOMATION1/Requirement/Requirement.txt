@@ -1,0 +1,11 @@
+Duplex Type - TDD
+Number of Bandwidths to test - 1
+Bandwidths (Split with '/') - 100M
+Phase Compensation - Auto
+eAxID - 1
+Folder path to save results - C:\ORAN_AUTOMATION1\Result
+Downlink Center Frequency in GHz - 3.625005
+Uplink Center Frequency in GHz - 3.625005
+Power in dBm - 60
+VXT Address - TCPIP::172.17.95.2::hislip0::INSTR
+External Gain dBm - 23

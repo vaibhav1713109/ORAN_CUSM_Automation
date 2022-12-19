@@ -1,0 +1,13 @@
+Duplex Type - FDD
+Number of Bandwidths to test - 1
+Bandwidths (Split with '/') - 40M
+Phase Compensation - Off
+eAxID - 14
+Folder path to save results - C:\ORAN_AUTOMATION\Result
+Downlink Center Frequency in GHz - 1.9625
+Uplink Center Frequency in GHz (Please enter same DL center frequency for TDD) - 1.8825
+Power in dBm - 50
+VXT Address - TCPIP::172.20.56.35::hislip0::INSTR
+External Gain in dBm - 45
+Number PRACH formats to test (Enter values btw 1 to 3) - 3
+PRACH Formats (Split with '/') - A3/B4/C2
