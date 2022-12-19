@@ -1,0 +1,2 @@
+INFO:root:Calling my_func with args = (1, 2), kwargs = {}
+INFO:root:Calling my_func returned 3.

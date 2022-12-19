@@ -1,0 +1,15 @@
+{
+    "Username": "operator",
+    "password": "admin123",
+    "Paragon_IP": "172.17.80.4",
+    "File_path": "/home/cicd/CICD/QA_Testing/LPRU/LOGS/SPLANE",
+    "root_Username": "root",
+    "root_password": "vvdn",
+    "system_log_path": "/media/sd-mmcblk0p4/lpru.log",
+    "im_ver": "1.0.2",
+    "Static_ip":"192.168.4.50",
+    "ip_type":"STATIC",
+    "port_num": "1",
+    "ru_mac" : "78:7d:f3:01:12:e9",
+    "ru_name" : "VVDN_8T8R"
+}

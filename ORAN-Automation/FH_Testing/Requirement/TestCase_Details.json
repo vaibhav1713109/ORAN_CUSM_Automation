@@ -1,0 +1,8 @@
+{
+    "Base_DL_UL":{
+        "Test_Case_Name": "Base_DL_UL",
+        "Test_Desc" : "Test Description :\nThis scenario validates that the O-RU properly executes the session establishment procedure \nwith VLANs and a DHCPv4 server. This test is applicable to IPv4 environments.",
+        "Mplane_VlanID":"3",
+        "pdf_name": "M_CTC_ID_001"
+    }
+}

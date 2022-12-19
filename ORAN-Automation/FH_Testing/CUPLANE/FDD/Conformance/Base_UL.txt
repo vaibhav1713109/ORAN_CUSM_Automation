@@ -1,0 +1,17 @@
+api.SignalGenerator.Frequency = (float(0.725)*1000000000)
+api.SignalGenerator.Amplitude = -30
+api.SignalGenerator.TriggerType = TriggerType.Continuous
+api.SignalGenerator.TriggerSource = TriggerSource.External
+api.SignalGenerator.ExternalPolarity = Polarity.Positive
+api.SignalGenerator.ExternalDelayEnabled = True
+api.SignalGenerator.ExternalDelayTime = 5e-09
+api.SignalGenerator.Continuous = Continuous.TriggerAndRun
+api.SignalGenerator.SingleTrigger = SingleTrigger.BufferedTrigger
+api.SignalGenerator.SegmentAdvance = SegmentAdvance.Continuous
+api.NR5GWaveformSettings.GetNRCarriersItem(0).CarrierType = CarrierType.UL
+api.NR5GWaveformSettings.GetNRCarriersItem(0).ULFRCConfig(Bandwidth.FR1_10M, FRC.G_FR1_A1_1, 0, PUSCHMappingType.A, PhaseCompensationMode.Auto, None,True)
+api.NR5GWaveformSettings.GetNRCarriersItem(0).DCPunctured = True
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Uplink.GetULSCHItem(0).NumberOfDMRSCDMGroup = 1
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Uplink.GetULSCHItem(0).PayloadData.PayLoadDataType = PayloadDataType.PN9
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Uplink.GetULSCHItem(0).MCS = 9
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Uplink.GetULSCHItem(0).DMRSPowerBoosting = 0

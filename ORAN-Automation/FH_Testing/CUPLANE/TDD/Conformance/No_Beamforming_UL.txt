@@ -1,0 +1,11 @@
+api.NR5GWaveformSettings.GetNRCarriersItem(0).CarrierType = CarrierType.UL
+tdd = TDDConfig(SlotConfigurationPeriod.MS5, 7, 6, 2, 4)
+api.NR5GWaveformSettings.GetNRCarriersItem(0).ULFRCConfig(Bandwidth.FR1_100M, FRC.G_FR1_A1_5, 0, PUSCHMappingType.A, PhaseCompensationMode.Auto, tdd,True)
+api.NR5GWaveformSettings.GetNRCarriersItem(0).DCPunctured = True
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Uplink.GetULSCHItem(0).NumberOfDMRSCDMGroup = 1
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Uplink.GetULSCHItem(0).PayloadData.PayLoadDataType = PayloadDataType.PN23
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Uplink.GetULSCHItem(1).PayloadData.PayLoadDataType = PayloadDataType.PN23
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Uplink.GetULSCHItem(0).MCS = 9
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Uplink.GetULSCHItem(1).MCS = 9
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Uplink.GetULSCHItem(0).DMRSPowerBoosting = 0
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Uplink.GetULSCHItem(1).DMRSPowerBoosting = 0

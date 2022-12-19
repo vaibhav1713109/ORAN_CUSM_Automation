@@ -1,0 +1,14 @@
+<md-data-definitions xmlns="urn:o-ran:lbm:1.0">
+    <maintenance-domain xmlns="urn:o-ran:lbm:1.0">
+        <maintenance-association>
+            <component-list>
+                <vid xmlns="urn:o-ran:interfaces:1.0">30</vid>
+                <maintenance-association-end-point>
+                    <interface>eth1</interface>
+                    <primary-vid xmlns="urn:o-ran:interfaces:1.0">30</primary-vid>
+                    <mac-address xmlns="urn:o-ran:interfaces:1.0">98:ae:71:00:8a:81</mac-address>
+                </maintenance-association-end-point>
+            </component-list>
+        </maintenance-association>
+    </maintenance-domain>
+</md-data-definitions>

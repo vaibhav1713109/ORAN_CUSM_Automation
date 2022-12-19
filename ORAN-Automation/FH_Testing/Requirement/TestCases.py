@@ -1,0 +1,33 @@
+test_cases = [
+     "Base_DL_UL",
+     "Extended_DL_UL",
+     "No_Beamforming_DL",
+     "No_Beamforming_UL",
+     "256_QAM_DL_64_QAM_UL_Comp_16_bit",
+     "64_QAM_Comp_16_bit_DL_UL",
+     "16_QAM_Comp_16_bit_DL_UL",
+     "256_QAM_DL_64_QAM_UL_Comp_14_bit",
+     "64_QAM_Comp_14_bit_DL_UL",
+     "16_QAM_Comp_14_bit_DL_UL",
+     "256_QAM_DL_64_QAM_UL_Comp_12_bit",
+     "64_QAM_Comp_12_bit_DL_UL",
+     "16_QAM_Comp_12_bit_DL_UL",
+     "256_QAM_DL_64_QAM_UL_Comp_9_bit",
+     "64_QAM_Comp_9_bit_DL_UL",
+     "16_QAM_Comp_9_bit_DL_UL"
+    #"ST3_PRACH_A3"
+    # "BN28_Base_DL",
+    # "BN28_Extended_DL_UL",
+    # "BN28_256_QAM_DL_Comp_16_bit",
+    # "BN28_64_QAM_Comp_16_bit_DL_UL",
+    # "16_QAM_Comp_16_bit_DL_UL",
+    # "256_QAM_DL_64_QAM_UL_Comp_14_bit",
+    # "64_QAM_Comp_14_bit_DL_UL",
+    # "16_QAM_Comp_14_bit_DL_UL",
+    # "256_QAM_DL_64_QAM_UL_Comp_12_bit",
+    # "64_QAM_Comp_12_bit_DL_UL",
+    # "16_QAM_Comp_12_bit_DL_UL",
+    # "256_QAM_DL_64_QAM_UL_Comp_9_bit",
+    # "64_QAM_Comp_9_bit_DL_UL",
+    # "16_QAM_Comp_9_bit_DL_UL"
+    ]

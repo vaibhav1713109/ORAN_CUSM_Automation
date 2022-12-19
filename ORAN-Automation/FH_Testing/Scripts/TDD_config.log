@@ -1,0 +1,273 @@
+2024-03-13 10:53:50,489 - pdf_report - INFO - func PDF_CAP : Initialize PDF class
+2024-03-13 10:53:50,617 - pdf_report - INFO - func HEADING : ====================================================================================================
+2024-03-13 10:53:50,617 - pdf_report - INFO - func HEADING : Heading =  CU Plane Test report 
+2024-03-13 10:53:50,617 - pdf_report - INFO - func HEADING : ====================================================================================================
+2024-03-13 10:53:50,618 - pdf_report - DEBUG - func render_header : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,618 - pdf_report - DEBUG - func render_header : Table Header = ['Hw S. No.', 'Product Name', 'RU Mac', 'SW Version']
+2024-03-13 10:53:50,618 - pdf_report - DEBUG - func render_header : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,619 - pdf_report - DEBUG - func render_table_data : Table Data = ['2403348700002', 'LPRU_v7', '98:ae:71:01:91:7b', '3.0.6']
+2024-03-13 10:53:50,620 - pdf_report - INFO - func HEADING : ====================================================================================================
+2024-03-13 10:53:50,620 - pdf_report - INFO - func HEADING : Heading =  Test Report 
+2024-03-13 10:53:50,620 - pdf_report - INFO - func HEADING : ====================================================================================================
+2024-03-13 10:53:50,620 - pdf_report - DEBUG - func render_header : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,620 - pdf_report - DEBUG - func render_header : Table Header = ['Test Case', 'Verdict']
+2024-03-13 10:53:50,620 - pdf_report - DEBUG - func render_header : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,621 - pdf_report - DEBUG - func render_table_data : Table Data = ['Base_DL_UL', 'Fail']
+2024-03-13 10:53:50,621 - pdf_report - DEBUG - func render_table_data : Table Data = ['Extended_DL_UL', 'Pass']
+2024-03-13 10:53:50,621 - pdf_report - DEBUG - func render_table_data : Table Data = ['16_QAM_Comp_14_bit_DL_UL', 'Pass']
+2024-03-13 10:53:50,622 - pdf_report - DEBUG - func render_table_data : Table Data = ['256_QAM_DL_64_QAM_UL_Comp_12_bit', 'Fail']
+2024-03-13 10:53:50,622 - pdf_report - INFO - func HEADING : ====================================================================================================
+2024-03-13 10:53:50,622 - pdf_report - INFO - func HEADING : Heading =  Test Report DL 
+2024-03-13 10:53:50,622 - pdf_report - INFO - func HEADING : ====================================================================================================
+2024-03-13 10:53:50,623 - pdf_report - INFO - func Test_HEADING : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,623 - pdf_report - INFO - func Test_HEADING : Heading data = Test purpose : The test purpose is to verify the DL test.
+2024-03-13 10:53:50,623 - pdf_report - INFO - func Test_HEADING : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,624 - pdf_report - INFO - func Test_HEADING : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,624 - pdf_report - INFO - func Test_HEADING : Heading data = Test environment : Normal test conditions.
+2024-03-13 10:53:50,624 - pdf_report - INFO - func Test_HEADING : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,624 - pdf_report - DEBUG - func render_header : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,624 - pdf_report - DEBUG - func render_header : Table Header = ['Test Case', 'Channel No', 'Channel Frequency [GHz]', 'BS Channel Bandwidth [MHz]', 'Measured EVM (RMS) [%]', 'EVM Limit [%]', 'Output Power [dBm]', 'Limit Low [dBm]', 'High Low [dBm]', 'Verdict']
+2024-03-13 10:53:50,624 - pdf_report - DEBUG - func render_header : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,626 - pdf_report - DEBUG - func render_table_data : Table Data = ['Base_DL_UL', '2', '3.700005', '100', '2.62', '3.5', '24.33', '23.0', '24.7', 'Pass']
+2024-03-13 10:53:50,627 - pdf_report - DEBUG - func render_table_data : Table Data = ['Extended_DL_UL', '2', '3.700005', '100', '2.41', '3.5', '24.35', '23.0', '24.7', 'Pass']
+2024-03-13 10:53:50,629 - pdf_report - DEBUG - func render_table_data : Table Data = ['16_QAM_Comp_14_bit_DL_UL', '3', '3.54234', 'FR1_100M', '3.45', '5.0', '24.29', '23', '24.99', 'Pass']
+2024-03-13 10:53:50,631 - pdf_report - DEBUG - func render_table_data : Table Data = ['256_QAM_DL_64_QAM_UL_Comp_12_bit', '3', '3.54234', 'FR1_100M', 'verify_result_and_capture_screenshot Error : VI_ERROR_CONN_LOST (-1073807194): The connection for the given', '3', 'session', '23', '24.99', 'has']
+2024-03-13 10:53:50,634 - pdf_report - DEBUG - func test_report_dl : crc_data_dl = [['Base_DL_UL', '2', [['#6317395Channel', 'Slot', 'CRC Passed', 'Bit Length'], ['PDSCH 1', '0', 'True', '84240'], ['PDSCH 1', '1', 'True', '84240'], ['PDSCH 1', '2', 'True', '84240'], ['PDSCH 1', '3', 'True', '84240'], ['PDSCH 1', '4', 'True', '84240'], ['PDSCH 1', '5', 'True', '84240'], ['PDSCH 1', '6', 'True', '84240'], ['PDSCH 1', '10', 'True', '84240'], ['PDSCH 1', '11', 'True', '84240'], ['PDSCH 1', '12', 'True', '84240'], ['PDSCH 1', '13', 'True', '84240'], ['PDSCH 1', '14', 'True', '84240'], ['PDSCH 1', '15', 'True', '84240'], ['PDSCH 1', '16', 'True', '84240'], ['PDSCH 2', '0', 'True', '792'], ['PDSCH 2', '1', 'True', '792'], ['PDSCH 2', '2', 'True', '792'], ['PDSCH 2', '3', 'True', '792'], ['PDSCH 2', '4', 'True', '792'], ['PDSCH 2', '5', 'True', '792'], ['PDSCH 2', '6', 'True', '792'], ['PDSCH 2', '10', 'True', '792'], ['PDSCH 2', '11', 'True', '792'], ['PDSCH 2', '12', 'True', '792'], ['PDSCH 2', '13', 'True', '792'], ['PDSCH 2', '14', 'True', '792'], ['PDSCH 2', '15', 'True', '792'], ['PDSCH 2', '16', 'True', '792'], ['PDSCH 3', '7', 'True', '35640'], ['PDSCH 3', '17', 'True', '35640'], ['PDSCH 4', '7', 'True', '252'], ['PDSCH 4', '17', 'True', '252'], ['PDCCH 1', '0', 'True', '108'], ['PDCCH 1', '1', 'True', '108'], ['PDCCH 1', '2', 'True', '108'], ['PDCCH 1', '3', 'True', '108'], ['PDCCH 1', '4', 'True', '108'], ['PDCCH 1', '5', 'True', '108'], ['PDCCH 1', '6', 'True', '108'], ['PDCCH 1', '7', 'True', '108'], ['PDCCH 1', '10', 'True', '108'], ['PDCCH 1', '11', 'True', '108'], ['PDCCH 1', '12', 'True', '108'], ['PDCCH 1', '13', 'True', '108'], ['PDCCH 1', '14', 'True', '108'], ['PDCCH 1', '15', 'True', '108'], ['PDCCH 1', '16', 'True', '108'], ['PDCCH 1', '17', 'True', '108']]], ['Extended_DL_UL', '2', [['#6317395Channel', 'Slot', 'CRC Passed', 'Bit Length'], ['PDSCH 1', '0', 'True', '84240'], ['PDSCH 1', '1', 'True', '84240'], ['PDSCH 1', '2', 'True', '84240'], ['PDSCH 1', '3', 'True', '84240'], ['PDSCH 1', '4', 'True', '84240'], ['PDSCH 1', '5', 'True', '84240'], ['PDSCH 1', '6', 'True', '84240'], ['PDSCH 1', '10', 'True', '84240'], ['PDSCH 1', '11', 'True', '84240'], ['PDSCH 1', '12', 'True', '84240'], ['PDSCH 1', '13', 'True', '84240'], ['PDSCH 1', '14', 'True', '84240'], ['PDSCH 1', '15', 'True', '84240'], ['PDSCH 1', '16', 'True', '84240'], ['PDSCH 2', '0', 'True', '792'], ['PDSCH 2', '1', 'True', '792'], ['PDSCH 2', '2', 'True', '792'], ['PDSCH 2', '3', 'True', '792'], ['PDSCH 2', '4', 'True', '792'], ['PDSCH 2', '5', 'True', '792'], ['PDSCH 2', '6', 'True', '792'], ['PDSCH 2', '10', 'True', '792'], ['PDSCH 2', '11', 'True', '792'], ['PDSCH 2', '12', 'True', '792'], ['PDSCH 2', '13', 'True', '792'], ['PDSCH 2', '14', 'True', '792'], ['PDSCH 2', '15', 'True', '792'], ['PDSCH 2', '16', 'True', '792'], ['PDSCH 3', '7', 'True', '35640'], ['PDSCH 3', '17', 'True', '35640'], ['PDSCH 4', '7', 'True', '252'], ['PDSCH 4', '17', 'True', '252'], ['PDCCH 1', '0', 'True', '108'], ['PDCCH 1', '1', 'True', '108'], ['PDCCH 1', '2', 'True', '108'], ['PDCCH 1', '3', 'True', '108'], ['PDCCH 1', '4', 'True', '108'], ['PDCCH 1', '5', 'True', '108'], ['PDCCH 1', '6', 'True', '108'], ['PDCCH 1', '7', 'True', '108'], ['PDCCH 1', '10', 'True', '108'], ['PDCCH 1', '11', 'True', '108'], ['PDCCH 1', '12', 'True', '108'], ['PDCCH 1', '13', 'True', '108'], ['PDCCH 1', '14', 'True', '108'], ['PDCCH 1', '15', 'True', '108'], ['PDCCH 1', '16', 'True', '108'], ['PDCCH 1', '17', 'True', '108']]], ['16_QAM_Comp_14_bit_DL_UL', '3', [['#6335013Channel', 'Slot', 'CRC Passed', 'Bit Length'], ['PDSCH 1', '0', 'True', '89856'], ['PDSCH 1', '1', 'True', '89856'], ['PDSCH 1', '2', 'True', '89856'], ['PDSCH 1', '3', 'True', '89856'], ['PDSCH 1', '4', 'True', '89856'], ['PDSCH 1', '5', 'True', '89856'], ['PDSCH 1', '6', 'True', '89856'], ['PDSCH 1', '10', 'True', '89856'], ['PDSCH 1', '11', 'True', '89856'], ['PDSCH 1', '12', 'True', '89856'], ['PDSCH 1', '13', 'True', '89856'], ['PDSCH 1', '14', 'True', '89856'], ['PDSCH 1', '15', 'True', '89856'], ['PDSCH 1', '16', 'True', '89856'], ['PDSCH 4', '7', 'True', '38016'], ['PDSCH 4', '17', 'True', '38016'], ['PDCCH 1', '0', 'True', '108'], ['PDCCH 1', '1', 'True', '108'], ['PDCCH 1', '2', 'True', '108'], ['PDCCH 1', '3', 'True', '108'], ['PDCCH 1', '4', 'True', '108'], ['PDCCH 1', '5', 'True', '108'], ['PDCCH 1', '6', 'True', '108'], ['PDCCH 1', '7', 'True', '108'], ['PDCCH 1', '10', 'True', '108'], ['PDCCH 1', '11', 'True', '108'], ['PDCCH 1', '12', 'True', '108'], ['PDCCH 1', '13', 'True', '108'], ['PDCCH 1', '14', 'True', '108'], ['PDCCH 1', '15', 'True', '108'], ['PDCCH 1', '16', 'True', '108'], ['PDCCH 1', '17', 'True', '108']]], ['256_QAM_DL_64_QAM_UL_Comp_12_bit', '3', []]]
+2024-03-13 10:53:50,634 - pdf_report - DEBUG - func check_crc_pass_fail : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,634 - pdf_report - INFO - func check_crc_pass_fail : Base_DL_UL CH2 CRC Table Made
+2024-03-13 10:53:50,635 - pdf_report - DEBUG - func render_header : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,635 - pdf_report - DEBUG - func render_header : Table Header = ['Channel', 'Slot', 'CRC Passed', 'Bit Length']
+2024-03-13 10:53:50,635 - pdf_report - DEBUG - func render_header : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,636 - pdf_report - DEBUG - func render_table_data : Table Data = ['#6317395Channel', 'Slot', 'CRC Passed', 'Bit Length']
+2024-03-13 10:53:50,637 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '0', 'True', '84240']
+2024-03-13 10:53:50,637 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '1', 'True', '84240']
+2024-03-13 10:53:50,638 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '2', 'True', '84240']
+2024-03-13 10:53:50,638 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '3', 'True', '84240']
+2024-03-13 10:53:50,639 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '4', 'True', '84240']
+2024-03-13 10:53:50,639 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '5', 'True', '84240']
+2024-03-13 10:53:50,639 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '6', 'True', '84240']
+2024-03-13 10:53:50,640 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '10', 'True', '84240']
+2024-03-13 10:53:50,640 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '11', 'True', '84240']
+2024-03-13 10:53:50,641 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '12', 'True', '84240']
+2024-03-13 10:53:50,642 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '13', 'True', '84240']
+2024-03-13 10:53:50,642 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '14', 'True', '84240']
+2024-03-13 10:53:50,643 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '15', 'True', '84240']
+2024-03-13 10:53:50,643 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '16', 'True', '84240']
+2024-03-13 10:53:50,644 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '0', 'True', '792']
+2024-03-13 10:53:50,644 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '1', 'True', '792']
+2024-03-13 10:53:50,645 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '2', 'True', '792']
+2024-03-13 10:53:50,645 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '3', 'True', '792']
+2024-03-13 10:53:50,646 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '4', 'True', '792']
+2024-03-13 10:53:50,647 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '5', 'True', '792']
+2024-03-13 10:53:50,647 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '6', 'True', '792']
+2024-03-13 10:53:50,648 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '10', 'True', '792']
+2024-03-13 10:53:50,649 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '11', 'True', '792']
+2024-03-13 10:53:50,650 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '12', 'True', '792']
+2024-03-13 10:53:50,650 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '13', 'True', '792']
+2024-03-13 10:53:50,651 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '14', 'True', '792']
+2024-03-13 10:53:50,652 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '15', 'True', '792']
+2024-03-13 10:53:50,652 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '16', 'True', '792']
+2024-03-13 10:53:50,653 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 3', '7', 'True', '35640']
+2024-03-13 10:53:50,654 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 3', '17', 'True', '35640']
+2024-03-13 10:53:50,654 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 4', '7', 'True', '252']
+2024-03-13 10:53:50,655 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 4', '17', 'True', '252']
+2024-03-13 10:53:50,656 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '0', 'True', '108']
+2024-03-13 10:53:50,656 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '1', 'True', '108']
+2024-03-13 10:53:50,656 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '2', 'True', '108']
+2024-03-13 10:53:50,657 - pdf_report - DEBUG - func render_header : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,657 - pdf_report - DEBUG - func render_header : Table Header = ['Channel', 'Slot', 'CRC Passed', 'Bit Length']
+2024-03-13 10:53:50,657 - pdf_report - DEBUG - func render_header : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,658 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '3', 'True', '108']
+2024-03-13 10:53:50,658 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '4', 'True', '108']
+2024-03-13 10:53:50,659 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '5', 'True', '108']
+2024-03-13 10:53:50,659 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '6', 'True', '108']
+2024-03-13 10:53:50,659 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '7', 'True', '108']
+2024-03-13 10:53:50,660 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '10', 'True', '108']
+2024-03-13 10:53:50,660 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '11', 'True', '108']
+2024-03-13 10:53:50,661 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '12', 'True', '108']
+2024-03-13 10:53:50,662 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '13', 'True', '108']
+2024-03-13 10:53:50,663 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '14', 'True', '108']
+2024-03-13 10:53:50,663 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '15', 'True', '108']
+2024-03-13 10:53:50,664 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '16', 'True', '108']
+2024-03-13 10:53:50,664 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '17', 'True', '108']
+2024-03-13 10:53:50,666 - pdf_report - DEBUG - func check_crc_pass_fail : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,666 - pdf_report - INFO - func check_crc_pass_fail : Extended_DL_UL CH2 CRC Table Made
+2024-03-13 10:53:50,666 - pdf_report - DEBUG - func render_header : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,666 - pdf_report - DEBUG - func render_header : Table Header = ['Channel', 'Slot', 'CRC Passed', 'Bit Length']
+2024-03-13 10:53:50,666 - pdf_report - DEBUG - func render_header : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,667 - pdf_report - DEBUG - func render_table_data : Table Data = ['#6317395Channel', 'Slot', 'CRC Passed', 'Bit Length']
+2024-03-13 10:53:50,668 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '0', 'True', '84240']
+2024-03-13 10:53:50,669 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '1', 'True', '84240']
+2024-03-13 10:53:50,669 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '2', 'True', '84240']
+2024-03-13 10:53:50,670 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '3', 'True', '84240']
+2024-03-13 10:53:50,670 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '4', 'True', '84240']
+2024-03-13 10:53:50,671 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '5', 'True', '84240']
+2024-03-13 10:53:50,671 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '6', 'True', '84240']
+2024-03-13 10:53:50,672 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '10', 'True', '84240']
+2024-03-13 10:53:50,673 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '11', 'True', '84240']
+2024-03-13 10:53:50,673 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '12', 'True', '84240']
+2024-03-13 10:53:50,674 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '13', 'True', '84240']
+2024-03-13 10:53:50,674 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '14', 'True', '84240']
+2024-03-13 10:53:50,674 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '15', 'True', '84240']
+2024-03-13 10:53:50,675 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '16', 'True', '84240']
+2024-03-13 10:53:50,675 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '0', 'True', '792']
+2024-03-13 10:53:50,676 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '1', 'True', '792']
+2024-03-13 10:53:50,677 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '2', 'True', '792']
+2024-03-13 10:53:50,677 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '3', 'True', '792']
+2024-03-13 10:53:50,678 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '4', 'True', '792']
+2024-03-13 10:53:50,678 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '5', 'True', '792']
+2024-03-13 10:53:50,679 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '6', 'True', '792']
+2024-03-13 10:53:50,679 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '10', 'True', '792']
+2024-03-13 10:53:50,680 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '11', 'True', '792']
+2024-03-13 10:53:50,681 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '12', 'True', '792']
+2024-03-13 10:53:50,682 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '13', 'True', '792']
+2024-03-13 10:53:50,682 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '14', 'True', '792']
+2024-03-13 10:53:50,683 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '15', 'True', '792']
+2024-03-13 10:53:50,684 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 2', '16', 'True', '792']
+2024-03-13 10:53:50,684 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 3', '7', 'True', '35640']
+2024-03-13 10:53:50,685 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 3', '17', 'True', '35640']
+2024-03-13 10:53:50,685 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 4', '7', 'True', '252']
+2024-03-13 10:53:50,686 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 4', '17', 'True', '252']
+2024-03-13 10:53:50,686 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '0', 'True', '108']
+2024-03-13 10:53:50,687 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '1', 'True', '108']
+2024-03-13 10:53:50,687 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '2', 'True', '108']
+2024-03-13 10:53:50,688 - pdf_report - DEBUG - func render_header : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,688 - pdf_report - DEBUG - func render_header : Table Header = ['Channel', 'Slot', 'CRC Passed', 'Bit Length']
+2024-03-13 10:53:50,688 - pdf_report - DEBUG - func render_header : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,689 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '3', 'True', '108']
+2024-03-13 10:53:50,689 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '4', 'True', '108']
+2024-03-13 10:53:50,690 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '5', 'True', '108']
+2024-03-13 10:53:50,690 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '6', 'True', '108']
+2024-03-13 10:53:50,691 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '7', 'True', '108']
+2024-03-13 10:53:50,691 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '10', 'True', '108']
+2024-03-13 10:53:50,692 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '11', 'True', '108']
+2024-03-13 10:53:50,692 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '12', 'True', '108']
+2024-03-13 10:53:50,692 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '13', 'True', '108']
+2024-03-13 10:53:50,693 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '14', 'True', '108']
+2024-03-13 10:53:50,693 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '15', 'True', '108']
+2024-03-13 10:53:50,694 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '16', 'True', '108']
+2024-03-13 10:53:50,694 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '17', 'True', '108']
+2024-03-13 10:53:50,695 - pdf_report - DEBUG - func check_crc_pass_fail : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,695 - pdf_report - INFO - func check_crc_pass_fail : 16_QAM_Comp_14_bit_DL_UL CH3 CRC Table Made
+2024-03-13 10:53:50,696 - pdf_report - DEBUG - func render_header : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,696 - pdf_report - DEBUG - func render_header : Table Header = ['Channel', 'Slot', 'CRC Passed', 'Bit Length']
+2024-03-13 10:53:50,696 - pdf_report - DEBUG - func render_header : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,697 - pdf_report - DEBUG - func render_table_data : Table Data = ['#6335013Channel', 'Slot', 'CRC Passed', 'Bit Length']
+2024-03-13 10:53:50,698 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '0', 'True', '89856']
+2024-03-13 10:53:50,699 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '1', 'True', '89856']
+2024-03-13 10:53:50,699 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '2', 'True', '89856']
+2024-03-13 10:53:50,700 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '3', 'True', '89856']
+2024-03-13 10:53:50,700 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '4', 'True', '89856']
+2024-03-13 10:53:50,701 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '5', 'True', '89856']
+2024-03-13 10:53:50,702 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '6', 'True', '89856']
+2024-03-13 10:53:50,702 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '10', 'True', '89856']
+2024-03-13 10:53:50,703 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '11', 'True', '89856']
+2024-03-13 10:53:50,704 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '12', 'True', '89856']
+2024-03-13 10:53:50,704 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '13', 'True', '89856']
+2024-03-13 10:53:50,705 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '14', 'True', '89856']
+2024-03-13 10:53:50,705 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '15', 'True', '89856']
+2024-03-13 10:53:50,706 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 1', '16', 'True', '89856']
+2024-03-13 10:53:50,706 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 4', '7', 'True', '38016']
+2024-03-13 10:53:50,707 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDSCH 4', '17', 'True', '38016']
+2024-03-13 10:53:50,707 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '0', 'True', '108']
+2024-03-13 10:53:50,708 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '1', 'True', '108']
+2024-03-13 10:53:50,708 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '2', 'True', '108']
+2024-03-13 10:53:50,708 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '3', 'True', '108']
+2024-03-13 10:53:50,709 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '4', 'True', '108']
+2024-03-13 10:53:50,709 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '5', 'True', '108']
+2024-03-13 10:53:50,710 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '6', 'True', '108']
+2024-03-13 10:53:50,710 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '7', 'True', '108']
+2024-03-13 10:53:50,711 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '10', 'True', '108']
+2024-03-13 10:53:50,712 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '11', 'True', '108']
+2024-03-13 10:53:50,712 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '12', 'True', '108']
+2024-03-13 10:53:50,713 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '13', 'True', '108']
+2024-03-13 10:53:50,713 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '14', 'True', '108']
+2024-03-13 10:53:50,714 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '15', 'True', '108']
+2024-03-13 10:53:50,715 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '16', 'True', '108']
+2024-03-13 10:53:50,716 - pdf_report - DEBUG - func render_table_data : Table Data = ['PDCCH 1', '17', 'True', '108']
+2024-03-13 10:53:50,717 - pdf_report - DEBUG - func check_crc_pass_fail : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,717 - pdf_report - INFO - func check_crc_pass_fail : 256_QAM_DL_64_QAM_UL_Comp_12_bit CH3 CRC Table Made
+2024-03-13 10:53:50,718 - pdf_report - DEBUG - func render_header : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,718 - pdf_report - DEBUG - func render_header : Table Header = ['Channel', 'Slot', 'CRC Passed', 'Bit Length']
+2024-03-13 10:53:50,718 - pdf_report - DEBUG - func render_header : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,719 - pdf_report - INFO - func test_report_dl : ScreenShot not append for C:\Automation\radi_bn28\ORAN-Automation\CUPLANE\Results\LPRUD_4T4R\2.0.7\EAXCID2\Base_DL_UL\VXT_capture.png
+2024-03-13 10:53:50,720 - pdf_report - INFO - func test_report_dl : ScreenShot not append for C:\Automation\radi_bn28\ORAN-Automation\CUPLANE\Results\LPRUD_4T4R\2.0.7\EAXCID2\Extended_DL_UL\VXT_capture.png
+2024-03-13 10:53:50,721 - pdf_report - INFO - func test_report_dl : ScreenShot not append for C:\Automation\FH_Testing/Results/CUPLANE/LPRU_v2/1.0.19/22082142000036/FR1_100M/EAXCID3/16_QAM_Comp_14_bit_DL_UL/capture.png
+2024-03-13 10:53:50,722 - pdf_report - INFO - func test_report_dl : ScreenShot not append for been
+2024-03-13 10:53:50,723 - pdf_report - INFO - func HEADING : ====================================================================================================
+2024-03-13 10:53:50,723 - pdf_report - INFO - func HEADING : Heading =  Test Report UL 
+2024-03-13 10:53:50,723 - pdf_report - INFO - func HEADING : ====================================================================================================
+2024-03-13 10:53:50,723 - pdf_report - INFO - func Test_HEADING : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,723 - pdf_report - INFO - func Test_HEADING : Heading data = Test purpose : The test purpose is to verify the UL test.
+2024-03-13 10:53:50,723 - pdf_report - INFO - func Test_HEADING : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,724 - pdf_report - INFO - func Test_HEADING : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,724 - pdf_report - INFO - func Test_HEADING : Heading data = Test environment : Normal test conditions.
+2024-03-13 10:53:50,724 - pdf_report - INFO - func Test_HEADING : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,725 - pdf_report - DEBUG - func render_header : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,725 - pdf_report - DEBUG - func render_header : Table Header = ['Test Case', 'Channel No', 'Channel Frequency [GHz]', 'BS Channel Bandwidth [MHz]', 'Measured EVM (RMS) [%]', 'EVM Limit [%]', 'Verdict']
+2024-03-13 10:53:50,725 - pdf_report - DEBUG - func render_header : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,726 - pdf_report - DEBUG - func render_table_data : Table Data = ['Base_DL_UL', '2', '3.700005', '100', '1.744832992553711', '3.5', 'Fail']
+2024-03-13 10:53:50,727 - pdf_report - DEBUG - func render_table_data : Table Data = ['Extended_DL_UL', '2', '3.700005', '100', '1.7345576286315918', '3.5', 'Pass']
+2024-03-13 10:53:50,728 - pdf_report - DEBUG - func render_table_data : Table Data = ['16_QAM_Comp_14_bit_DL_UL', '3', '3.54234', 'FR1_100M', '1.632390022277832', '3', 'Pass']
+2024-03-13 10:53:50,729 - pdf_report - DEBUG - func render_table_data : Table Data = ['256_QAM_DL_64_QAM_UL_Comp_12_bit', '3', '3.54234', 'FR1_100M', '1.6181265115737915', '3', 'Pass']
+2024-03-13 10:53:50,732 - pdf_report - DEBUG - func check_ul_crc_pass_fail : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,732 - pdf_report - INFO - func check_ul_crc_pass_fail : Base_DL_UL CH2 CRC Table Made
+2024-03-13 10:53:50,732 - pdf_report - DEBUG - func check_ul_crc_pass_fail : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,732 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUCCH Decoder : Off
+2024-03-13 10:53:50,733 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH Decoder : On
+2024-03-13 10:53:50,733 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_0_IE : PUSCH Index=0, CarrierIndex=0, BWPIndex=0
+2024-03-13 10:53:50,734 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F0_IE : Codeword=0, SlotIndex=08, RV Index=0, EffectiveCodeRate=0.6616, CRC=Pass , Number Of Code Blocks: 2
+2024-03-13 10:53:50,735 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F1_IE : Codeword=0, SlotIndex=09, RV Index=0, EffectiveCodeRate=0.6616, CRC=Pass , Number Of Code Blocks: 2
+2024-03-13 10:53:50,736 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F2_IE : Codeword=0, SlotIndex=18, RV Index=0, EffectiveCodeRate=0.6616, CRC=Pass , Number Of Code Blocks: 2
+2024-03-13 10:53:50,736 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F3_IE : Codeword=0, SlotIndex=19, RV Index=0, EffectiveCodeRate=0.6616, CRC=Pass , Number Of Code Blocks: 2
+2024-03-13 10:53:50,738 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_1_IE : PUSCH Index=1, CarrierIndex=0, BWPIndex=0
+2024-03-13 10:53:50,738 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F4_IE : Codeword=0, SlotIndex=07, RV Index=0, EffectiveCodeRate=0.6776, CRC=Pass , Number Of Code Blocks: 1
+2024-03-13 10:53:50,739 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F5_IE : Codeword=0, SlotIndex=17, RV Index=0, EffectiveCodeRate=0.6776, CRC=Pass , Number Of Code Blocks: 1
+2024-03-13 10:53:50,740 - pdf_report - DEBUG - func check_ul_crc_pass_fail : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,740 - pdf_report - INFO - func check_ul_crc_pass_fail : Extended_DL_UL CH2 CRC Table Made
+2024-03-13 10:53:50,740 - pdf_report - DEBUG - func check_ul_crc_pass_fail : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,740 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUCCH Decoder : Off
+2024-03-13 10:53:50,741 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH Decoder : On
+2024-03-13 10:53:50,741 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_0_IE : PUSCH Index=0, CarrierIndex=0, BWPIndex=0
+2024-03-13 10:53:50,741 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F0_IE : Codeword=0, SlotIndex=08, RV Index=0, EffectiveCodeRate=0.6616, CRC=Pass , Number Of Code Blocks: 2
+2024-03-13 10:53:50,742 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F1_IE : Codeword=0, SlotIndex=09, RV Index=0, EffectiveCodeRate=0.6616, CRC=Pass , Number Of Code Blocks: 2
+2024-03-13 10:53:50,742 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F2_IE : Codeword=0, SlotIndex=18, RV Index=0, EffectiveCodeRate=0.6616, CRC=Pass , Number Of Code Blocks: 2
+2024-03-13 10:53:50,743 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F3_IE : Codeword=0, SlotIndex=19, RV Index=0, EffectiveCodeRate=0.6616, CRC=Pass , Number Of Code Blocks: 2
+2024-03-13 10:53:50,744 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_1_IE : PUSCH Index=1, CarrierIndex=0, BWPIndex=0
+2024-03-13 10:53:50,744 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F4_IE : Codeword=0, SlotIndex=07, RV Index=0, EffectiveCodeRate=0.6776, CRC=Pass , Number Of Code Blocks: 1
+2024-03-13 10:53:50,745 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F5_IE : Codeword=0, SlotIndex=17, RV Index=0, EffectiveCodeRate=0.6776, CRC=Pass , Number Of Code Blocks: 1
+2024-03-13 10:53:50,746 - pdf_report - DEBUG - func check_ul_crc_pass_fail : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,746 - pdf_report - INFO - func check_ul_crc_pass_fail : 16_QAM_Comp_14_bit_DL_UL CH3 CRC Table Made
+2024-03-13 10:53:50,746 - pdf_report - DEBUG - func check_ul_crc_pass_fail : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,747 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUCCH Decoder : Off
+2024-03-13 10:53:50,747 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH Decoder : On
+2024-03-13 10:53:50,747 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_0_IE : PUSCH Index=0, CarrierIndex=0, BWPIndex=0
+2024-03-13 10:53:50,748 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F0_IE : Codeword=0, SlotIndex=08, RV Index=0, EffectiveCodeRate=0.6448, CRC=Pass , Number Of Code Blocks: 3
+2024-03-13 10:53:50,748 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F1_IE : Codeword=0, SlotIndex=09, RV Index=0, EffectiveCodeRate=0.6448, CRC=Pass , Number Of Code Blocks: 3
+2024-03-13 10:53:50,750 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F2_IE : Codeword=0, SlotIndex=18, RV Index=0, EffectiveCodeRate=0.6448, CRC=Pass , Number Of Code Blocks: 3
+2024-03-13 10:53:50,751 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F3_IE : Codeword=0, SlotIndex=19, RV Index=0, EffectiveCodeRate=0.6448, CRC=Pass , Number Of Code Blocks: 3
+2024-03-13 10:53:50,752 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_1_IE : PUSCH Index=1, CarrierIndex=0, BWPIndex=0
+2024-03-13 10:53:50,752 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F4_IE : Codeword=0, SlotIndex=07, RV Index=0, EffectiveCodeRate=0.6481, CRC=Pass , Number Of Code Blocks: 1
+2024-03-13 10:53:50,753 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F5_IE : Codeword=0, SlotIndex=17, RV Index=0, EffectiveCodeRate=0.6481, CRC=Pass , Number Of Code Blocks: 1
+2024-03-13 10:53:50,754 - pdf_report - DEBUG - func check_ul_crc_pass_fail : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,754 - pdf_report - INFO - func check_ul_crc_pass_fail : 256_QAM_DL_64_QAM_UL_Comp_12_bit CH3 CRC Table Made
+2024-03-13 10:53:50,754 - pdf_report - DEBUG - func check_ul_crc_pass_fail : ----------------------------------------------------------------------------------------------------
+2024-03-13 10:53:50,755 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUCCH Decoder : Off
+2024-03-13 10:53:50,755 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH Decoder : On
+2024-03-13 10:53:50,756 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_0_IE : PUSCH Index=0, CarrierIndex=0, BWPIndex=0
+2024-03-13 10:53:50,756 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F0_IE : Codeword=0, SlotIndex=08, RV Index=0, EffectiveCodeRate=0.9231, CRC=Pass , Number Of Code Blocks: 6
+2024-03-13 10:53:50,756 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F1_IE : Codeword=0, SlotIndex=09, RV Index=0, EffectiveCodeRate=0.9231, CRC=Pass , Number Of Code Blocks: 6
+2024-03-13 10:53:50,757 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F2_IE : Codeword=0, SlotIndex=18, RV Index=0, EffectiveCodeRate=0.9231, CRC=Pass , Number Of Code Blocks: 6
+2024-03-13 10:53:50,758 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F3_IE : Codeword=0, SlotIndex=19, RV Index=0, EffectiveCodeRate=0.9231, CRC=Pass , Number Of Code Blocks: 6
+2024-03-13 10:53:50,758 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_1_IE : PUSCH Index=1, CarrierIndex=0, BWPIndex=0
+2024-03-13 10:53:50,759 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F4_IE : Codeword=0, SlotIndex=07, RV Index=0, EffectiveCodeRate=0.9325, CRC=Pass , Number Of Code Blocks: 2
+2024-03-13 10:53:50,759 - pdf_report - DEBUG - func check_crc_pass_fail : CRC line = PUSCH_F5_IE : Codeword=0, SlotIndex=17, RV Index=0, EffectiveCodeRate=0.9325, CRC=Pass , Number Of Code Blocks: 2
+2024-03-13 10:53:50,760 - pdf_report - DEBUG - func test_report_ul : ScreenShot not append for C:\Automation\radi_bn28\ORAN-Automation\CUPLANE\Results\LPRUD_4T4R\2.0.7\EAXCID2\Base_DL_UL/VSA_Screenshot_1.gif
+2024-03-13 10:53:50,761 - pdf_report - DEBUG - func test_report_ul : ScreenShot not append for C:\Automation\radi_bn28\ORAN-Automation\CUPLANE\Results\LPRUD_4T4R\2.0.7\EAXCID2\Base_DL_UL/VSA_Screenshot_2.gif
+2024-03-13 10:53:50,763 - pdf_report - DEBUG - func test_report_ul : ScreenShot not append for C:\Automation\radi_bn28\ORAN-Automation\CUPLANE\Results\LPRUD_4T4R\2.0.7\EAXCID2\Extended_DL_UL/VSA_Screenshot_1.gif
+2024-03-13 10:53:50,764 - pdf_report - DEBUG - func test_report_ul : ScreenShot not append for C:\Automation\radi_bn28\ORAN-Automation\CUPLANE\Results\LPRUD_4T4R\2.0.7\EAXCID2\Extended_DL_UL/VSA_Screenshot_2.gif
+2024-03-13 10:53:50,765 - pdf_report - DEBUG - func test_report_ul : ScreenShot not append for C:\Automation\FH_Testing/Results/CUPLANE/LPRU_v2/1.0.19/22082142000036/FR1_100M/EAXCID3/16_QAM_Comp_14_bit_DL_UL/VSA_Screenshot_1.gif
+2024-03-13 10:53:50,766 - pdf_report - DEBUG - func test_report_ul : ScreenShot not append for C:\Automation\FH_Testing/Results/CUPLANE/LPRU_v2/1.0.19/22082142000036/FR1_100M/EAXCID3/16_QAM_Comp_14_bit_DL_UL/VSA_Screenshot_2.gif
+2024-03-13 10:53:50,767 - pdf_report - DEBUG - func test_report_ul : ScreenShot not append for C:\Automation\FH_Testing/Results/CUPLANE/LPRU_v2/1.0.19/22082142000036/FR1_100M/EAXCID3/256_QAM_DL_64_QAM_UL_Comp_12_bit/VSA_Screenshot_1.gif
+2024-03-13 10:53:50,769 - pdf_report - DEBUG - func test_report_ul : ScreenShot not append for C:\Automation\FH_Testing/Results/CUPLANE/LPRU_v2/1.0.19/22082142000036/FR1_100M/EAXCID3/256_QAM_DL_64_QAM_UL_Comp_12_bit/VSA_Screenshot_2.gif
+2024-03-13 10:53:50,770 - pdf_report - DEBUG - func test_report_ul : Report save at /home/vvdn/Desktop/CUPlane_Automation/radi_bn28/ORAN-Automation/FH_Testing/Scripts/test.pdf

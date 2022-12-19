@@ -1,0 +1,25 @@
+api.SignalGenerator.Frequency = (float(3.499995)*1000000000)
+api.SignalGenerator.Amplitude = int(-60)
+api.SignalGenerator.TriggerType = TriggerType.Continuous
+api.SignalGenerator.TriggerSource = TriggerSource.External
+api.SignalGenerator.ExternalPolarity = Polarity.Positive
+api.SignalGenerator.ExternalDelayEnabled = True
+api.SignalGenerator.ExternalDelayTime = 0.000000005
+api.SignalGenerator.Continuous = Continuous.TriggerAndRun
+api.SignalGenerator.SingleTrigger = SingleTrigger.BufferedTrigger
+api.SignalGenerator.SegmentAdvance = SegmentAdvance.Continuous
+api.NR5GWaveformSettings.GetNRCarriersItem(0).CarrierType = CarrierType.DL
+api.NR5GWaveformSettings.GetNRCarriersItem(0).PresetDLTestModel(Bandwidth.FR1_10M, DuplexType.FDD, Numerology.SCS15k, TestModel.NR_FR1_TM1_1, 1, PhaseCompensationMode.Auto)
+api.NR5GWaveformSettings.GetNRCarriersItem(0).DCPunctured = True
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Downlink.GetDLSCHItem(0).ChannelCoding = True
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Downlink.GetDLSCHItem(1).ChannelCoding = True
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Downlink.GetDCIItem(0).ChannelCoding = True
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Downlink.GetDCIItem(0).AutoDCI = False
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Downlink.GetDCIItem(0).Enabled = True
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Downlink.GetDCIItem(0).PayloadData.PayLoadDataType = PayloadDataType.PN23
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Downlink.GetDLSCHItem(0).PayloadData.PayLoadDataType = PayloadDataType.PN23
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Downlink.GetDLSCHItem(0).MCSTable = DLSCHMCSTable.Table51312
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Downlink.GetDLSCHItem(0).MCS = 27
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Downlink.GetDLSCHItem(1).PayloadData.PayLoadDataType = PayloadDataType.PN23
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Downlink.GetDLSCHItem(1).MCSTable = DLSCHMCSTable.Table51312
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Downlink.GetDLSCHItem(1).MCS = 27

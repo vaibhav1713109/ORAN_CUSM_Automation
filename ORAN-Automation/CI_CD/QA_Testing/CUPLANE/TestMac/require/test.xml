@@ -1,0 +1,14 @@
+<garuda_config>
+    <bandwidth>100</bandwidth>
+    <du_mac_address>00:11:22:33:44:66</du_mac_address>
+    <cu_plane_vlan>30</cu_plane_vlan>
+    <num_prb>273</num_prb>
+    <prach_layer0_PCID>4</prach_layer0_PCID>
+    <prach_layer1_PCID>5</prach_layer1_PCID>
+    <prach_layer2_PCID>6</prach_layer2_PCID>
+    <prach_layer3_PCID>7</prach_layer3_PCID>
+    <pxsch_layer0_PCID>0</pxsch_layer0_PCID>
+    <pxsch_layer1_PCID>1</pxsch_layer1_PCID>
+    <pxsch_layer2_PCID>2</pxsch_layer2_PCID>
+    <pxsch_layer3_PCID>3</pxsch_layer3_PCID>
+</garuda_config>

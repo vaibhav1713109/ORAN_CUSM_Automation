@@ -1,0 +1,81 @@
+<ModuleConfigSchema>
+  <Modules>
+    <FpgaModule>
+      <Name>TestModule</Name>
+      <PortConfig>
+        <EthernetProtocol>10G/25G</EthernetProtocol>
+        <StimulusCapturePort>1/1</StimulusCapturePort>
+        <StimulusCaptureMode>1 Port Stimulus and Capture</StimulusCaptureMode>
+        <PortSettings>
+          <PortInfo>
+            <NetworkPortName>QSFP1_1</NetworkPortName>
+            <QSFP>1</QSFP>
+            <Port>1</Port>
+            <Speed>10G</Speed>
+            <Address>00:0A:35:00:00:00</Address>
+            <OruAddress>98:ae:71:01:c5:fb</OruAddress>
+          </PortInfo>
+          <PortInfo>
+            <NetworkPortName>QSFP1_2</NetworkPortName>
+            <QSFP>1</QSFP>
+            <Port>2</Port>
+            <Speed>10G</Speed>
+            <Address>80:09:02:0F:08:01</Address>
+            <OruAddress>78:7D:F3:01:13:41</OruAddress>
+          </PortInfo>
+          <PortInfo>
+            <NetworkPortName>QSFP3_1</NetworkPortName>
+            <QSFP>3</QSFP>
+            <Port>1</Port>
+            <Speed>1G</Speed>
+            <Address />
+            <OruAddress />
+          </PortInfo>
+        </PortSettings>
+        <PortAddressList>98:AE:71:01:91:73 98:AE:71:01:91:91 98:AE:71:01:91:63 78:7D:F3:01:13:41 00:0A:35:00:00:00 78:7D:F3:01:12:5F 98:AE:71:01:91:99 98:AE:71:01:91:65 98:AE:71:01:91:69 98:AE:71:01:91:95 98:AE:71:01:91:69 98:AE:71:01:91:99 98:AE:71:01:91:77 98:AE:71:01:91:97 98:AE:71:01:91:99 98:AE:71:01:91:8B 78:7D:F3:01:12:51 78:7D:F3:01:12:27 98:AE:71:00:8A:54 00:0A:35:00:22:01 98:AE:71:00:8A:82 78:7D:F3:01:12:B5 78:7D:F3:01:12:51 98:AE:71:00:8A:82 98:AE:71:01:91:64 98:AE:71:00:00:11 98:AE:71:00:8A:81 98:AE:71:01:91:61 78:7D:F3:01:12:64 78:7D:F3:01:12:65 98:AE:71:00:8A:82 98:AE:71:01:91:69 98:AE:71:01:91:6B 98:AE:71:01:91:67 98:AE:71:01:91:6B 98:AE:71:01:91:63 98:AE:71:00:00:11 98:AE:71:01:91:67 98:AE:71:01:91:6B 98:AE:71:01:91:69 98:AE:71:01:91:65 98:AE:71:01:91:79 98:AE:71:00:00:11 78:7D:F3:01:12:B5 98:AE:71:01:91:79 98:AE:71:01:91:63 98:AE:71:00:84:15 98:AE:71:00:84:12 98:AE:71:01:91:67 78:7D:F3:01:12:B5 98:AE:71:00:84:11 98:AE:71:00:84:21 98:AE:71:01:91:77 98:AE:71:00:84:18 98:AE:71:00:84:21 98:AE:71:00:84:01 98:AE:71:01:91:77 98:AE:71:00:00:11 98:AE:71:01:91:8C 98:AE:71:01:91:62 98:AE:71:01:91:76 98:AE:71:01:91:6D 78:7D:F3:01:12:B5 98:AE:71:01:91:6B 98:AE:71:00:00:11 98:AE:71:01:91:6D 98:AE:71:01:91:9B 98:AE:71:01:91:97 98:AE:71:00:84:23 98:AE:71:01:91:8C 98:AE:71:01:91:67 98:AE:71:01:91:7B 98:AE:71:01:91:6F 98:AE:71:01:91:77 98:AE:71:01:91:6D 98:AE:71:01:91:67 98:AE:71:01:91:71 98:AE:71:01:91:73 98:AE:71:01:91:6B 98:AE:71:00:01:82 98:AE:71:00:01:81 98:AE:71:01:91:75 98:AE:71:00:00:11 98:AE:71:01:91:6F 98:AE:71:01:C5:D3 98:AE:71:01:91:8B 98:AE:71:01:C5:CB 98:AE:71:01:91:8D 98:AE:71:01:91:8C 98:AE:71:01:C5:C7 98:AE:71:01:C5:C1 98:AE:71:01:C5:C9 98:AE:71:01:C5:C5 98:AE:71:01:C5:C3 98:AE:71:00:8A:81 98:AE:71:01:C5:CB 98:AE:71:00:00:22 98:AE:71:01:C5:D9 98:AE:71:01:C5:DD 98:AE:71:00:00:22 98:AE:71:01:C5:CF 98:AE:71:00:00:11 98:AE:71:00:00:11 98:AE:71:01:C5:C7 98:AE:71:01:C5:CF 98:AE:71:01:C5:E1 98:AE:71:01:C5:DD 98:AE:71:01:C5:E3 98:AE:71:01:C5:E9 98:AE:71:01:C5:E7 98:AE:71:01:C5:EF 98:AE:71:01:C5:E9 98:AE:71:01:C5:F3 98:AE:71:01:C5:F1 98:AE:71:01:C5:D9 98:AE:71:01:C5:F7 98:AE:71:01:C5:E5 98:AE:71:00:00:11 98:AE:71:01:C5:ED 98:AE:71:01:C5:D5 98:AE:71:01:C5:CF 98:AE:71:01:C5:D7 98:AE:71:01:C5:F5 98:AE:71:01:C5:DB 98:AE:71:01:C5:F9 98:AE:71:01:C5:D1 98:AE:71:01:C5:D3 98:AE:71:01:C5:EB 98:AE:71:00:00:11 98:AE:71:01:C5:FB 98:AE:71:00:00:11 98:AE:71:01:C5:FB 98:AE:71:01:91:67 98:AE:71:01:91:65 98:AE:71:01:C5:FB 98:AE:71:01:C5:D7 98:AE:71:01:91:8D 98:AE:71:01:91:63 98:AE:71:01:91:63 98:AE:71:01:91:79 98:AE:71:01:91:79</PortAddressList>
+        <EnableMPlaneMACLearning>false</EnableMPlaneMACLearning>
+      </PortConfig>
+      <TimeSyncConfig>
+        <RefClock>External 100 Mhz</RefClock>
+        <PtpMode>Master</PtpMode>
+        <PtpMulticast>Forwardable</PtpMulticast>
+        <PtpDomain>24</PtpDomain>
+        <PtpPriority2>128</PtpPriority2>
+        <PtpUtcOffset>37</PtpUtcOffset>
+        <PtpLinkUpDelay>0</PtpLinkUpDelay>
+        <PtpLinkDownDelay>0</PtpLinkDownDelay>
+        <Alpha>0</Alpha>
+        <Beta>0</Beta>
+        <PPSInDelay>0</PPSInDelay>
+        <SyncF0OnPpsIn>false</SyncF0OnPpsIn>
+        <SyncOnPpsIn>Sync to Frame 0</SyncOnPpsIn>
+        <PlayStimulusOnTriggerIn>false</PlayStimulusOnTriggerIn>
+        <DisableSyncE>false</DisableSyncE>
+      </TimeSyncConfig>
+      <TriggerOutConfig>
+        <TriggerEnabled>true</TriggerEnabled>
+        <TriggerDelay>0</TriggerDelay>
+        <PulseDuration>0</PulseDuration>
+        <TriggerModeSelectedIndex>2</TriggerModeSelectedIndex>
+      </TriggerOutConfig>
+      <StimulusConfig>
+        <Delay>0</Delay>
+        <ORUMACAddrs>78:7D:F3:01:13:41</ORUMACAddrs>
+        <ORUMACAddrSelectedIdx>0</ORUMACAddrSelectedIdx>
+      </StimulusConfig>
+      <ConnectivityConfig>
+        <EnableLbm>true</EnableLbm>
+        <LbmInterval>2</LbmInterval>
+        <LbmMessageCount>100</LbmMessageCount>
+        <LbmMel>5</LbmMel>
+        <LbmUseVlan>true</LbmUseVlan>
+        <LbmVlanId>100</LbmVlanId>
+        <EnableEcpriDelay>false</EnableEcpriDelay>
+        <EcpriDelayInitiator>true</EcpriDelayInitiator>
+        <EcpriDelayUseVlan>false</EcpriDelayUseVlan>
+        <EcpriDelayVlanId>0</EcpriDelayVlanId>
+        <EcpriDelayInterval>1000</EcpriDelayInterval>
+      </ConnectivityConfig>
+    </FpgaModule>
+  </Modules>
+</ModuleConfigSchema>

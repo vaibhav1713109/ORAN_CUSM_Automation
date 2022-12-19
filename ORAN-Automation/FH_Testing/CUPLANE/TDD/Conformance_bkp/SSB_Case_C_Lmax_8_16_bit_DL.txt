@@ -1,0 +1,5 @@
+api.NR5GWaveformSettings.GetNRCarriersItem(0).CarrierType = CarrierType.DL
+api.NR5GWaveformSettings.GetNRCarriersItem(0).PresetDLTestModel(Bandwidth.{bandwidth}, DuplexType.{duplex_type}, Numerology.SCS{scs_val}k, TestModel.NR_FR1_TM1_1, 1, PhaseCompensationMode.Auto)
+api.NR5GWaveformSettings.GetNRCarriersItem(0).DCPunctured = True
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Downlink.get_SSPBCH().Enabled = True
+api.NR5GWaveformSettings.GetNRCarriersItem(0).Downlink.get_SSPBCH().SSBlockPattern.CaseC
