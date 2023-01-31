@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+body {
+    background-color: rgba(33, 33, 32, 0.852);
+    /* border: 1px solid black; */
+}
+/* Header CSS */
+.header{
+    /* border: 1px solid rgb(18, 13, 13); */
+    background-color: rgba(33, 33, 32, 0.478);
+    border-radius: 10px 0;
+    margin: 10px;
+    top: 10px;
+    position: sticky;
+}
+.header div{
+    display: flex;
+    margin: 5px;
+    width: 100%;
+    align-content: center;
+}
+.header span{
+    margin: 5px;
+    align-self: center;
+    border-radius: 10px;
+}
+.header img{
+    border-radius: 10px;
+}
+
+.short-view, .short-text{
+    display: none;
+}
+
+/* Main Section */
+.main_con{
+    /* border: 1px solid rgb(18, 13, 13); */
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/* Left Section CSS */
+#side_menu{
+    background-color: rgba(0, 0, 0, 0.549);
+    margin: 10px;
+    flex-grow: 0.2;
+}
+#side_menu a{
+    text-decoration: none;
+    margin: 20px;
+    padding: 5px;
+}
+#side_menu a:active{
+    color: blue;
+}
+#side_menu ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+#side_menu li:hover{
+    border-left: 4px solid aqua;
+    color: aqua;
+}
+
+
+/* Right Section */
+#main_body {
+    /* border: 1px solid rgb(99, 45, 45); */
+    padding: 5px 10px;
+    margin: 10px;
+    flex-grow: 2;
+    background-color: rgba(0, 0, 0, 0.549);
+}
+
+#form_data{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+form select, form .input_text {
+    width: 100%;
+    padding: 5px;
+    margin: 10px auto;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(55, 57, 57);
+    border-bottom: 1px solid rgb(32, 32, 32);
+}
+form select:hover, form .input_text:hover {
+    background-color: rgb(79, 78, 78);
+}
+
+#checkbox input{
+    margin-left:10%;
+    background-color: rgb(68, 64, 64);
+}
+
+.btn-success {
+    display: inline-block;
+    border: none;
+    background-color: rgb(80, 135, 80);
+    height: 25px;
+    width: 20%;
+    border-radius: 10px;
+}
+.btn-reset {
+    display: inline-block;
+    border: none;
+    background-color: rgb(157, 163, 157);
+    height: 25px;
+    width: 20%;
+    border-radius: 10px;
+}
+
+
+/* Footer */
+.footer {
+    display: flex;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-content: space-around;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer div {
+    background-color: rgb(18, 18, 31);
+    padding: 5px;
+}

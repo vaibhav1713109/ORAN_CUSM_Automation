@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <title>CU Plane Conformance</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        // $("#flip").click(function(){
+        //   $("#panel").slideToggle("slow");
+        // });
+        // $(".cu_btn").click(function(){
+        //     $(".cu_show").slideToggle("slow");
+        // });
+        // });
+        // $(document).ready(function(){
+        $(".dl_btn").click(function(){
+            $(".dl_show").slideToggle("slow");
+        });
+        $(".ul_btn").click(function(){
+            $(".ul_show").slideToggle("slow");
+        });
+        });
+    </script>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="../css/phone.css">
+</head>
+
+<body>
+    <header class="header">
+        <div id="item1">
+            <span class="full-view"><img src="/vvdn_logo.png" alt="vvdn_logo"></span>
+            <span class="short-view"><img src="/vvdn.png" alt="vvdn_logo"></span>
+            <span class="full-text"><h3>CU Plane Configuration</h3></span> 
+            <span class="short-text"><h3>CU Configuration</h3></span> 
+        </div>
+    </header>
+    <main class="main_con">
+        <div id="side_menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Configuration</a></li>
+                <li><a href="#">Management Plane</a></li>
+                <li><a href="#">Syncronization Plane</a></li>
+                <li class="cu_btn"><a href="CU_PlaneTestCase.html" target="_blank">CU Plane</a></li>
+                <li><a href="#">RCT</a></li>
+            </ul>
+        </div>
+        <div id="main_body">
+            <form action="CU_PlaneTestCase.html" id="form_data">
+                <label for="test">Test Model:</label>
+                <select name="test_m" id="test_mod">
+                    <option value="TM1_1">TM1_1</option>
+                    <option value="TM2">TM2</option>
+                    <option value="TM2a">TM2a</option>
+                    <option value="TM3_1">TM3_1</option>
+                    <option value="TM3_1a">TM3_1a</option>
+                    <option value="TM3_2">TM3_2</option>
+                    <option value="TM3_1">TM3_3</option>
+                </select>
+                <label for="test">SubCarrier Spacing:</label>
+                <select name="sub_c" id="scs_val">
+                    <option value="15KHz">15KHz</option>
+                    <option value="30KHz">30KHz</option>
+                    <option value="60KHz">60KHz</option>
+                </select>
+                <label for="test">Duplex Type:</label>
+                <select name="du_t" id="cars">
+                    <option value="TDD">TDD</option>
+                    <option value="FDD">FDD</option>
+                </select>
+                <label for="test">Downlink Frequency:</label>
+                <input type="text" class="input_text" placeholder="DL Freq in GHz (Eg. 3.625)">
+                <label for="test">Uplink Frequency:</label>
+                <input type="text" class="input_text" placeholder="UL Freq in GHz (Eg. 3.625)">
+                <label for="test">Power:</label>
+                <input type="text" class="input_text" placeholder="Amplitude in dBm">
+                <label for="test">External Gain:</label>
+                <input type="text" class="input_text" placeholder="Offset in dBm">
+                <label for="test">Bandwidth:</label>
+                <select name="band_w" id="band">
+                    <option value="10M">10M</option>
+                    <option value="20M">20M</option>
+                    <option value="40M">40M</option>
+                    <option value="80M">80M</option>
+                    <option value="100M">100M</option>
+                </select>
+                <label for="test">Phase Compensation:</label>
+                <select name="Ph_a" id="phase_comp">
+                    <option value="Off">Off</option>
+                    <option value="Auto">Auto</option>
+                </select>
+                <label for="test">VXT Address:</label>
+                <input type="text" class="input_text" id="fname" name="name4" placeholder="172.20.56.35">
+                <label for="test">Eaxcid:</label>
+                <span id="checkbox">
+                    <input type="checkbox" name="chk" value="1">1
+                    <input type="checkbox" name="chk" value="2">2
+                    <input type="checkbox" name="chk" value="3">3
+                    <input type="checkbox" name="chk" value="4">4
+                    <input type="button" onclick='selects()' value="Select All" />
+                    <input type="button" onclick='deSelect()' value="Deselect All" />
+                </span>
+                
+                <label for="test">Save Result:</label>
+                <input type="text" class="input_text" id="rseult" name="name5" value="C:\ORAN_AUTOMATION\Result" readonly="">
+                <h3>Downlink Timing</h3>
+                <hr>
+                <label for="test" style="margin-top: 10px;">DL C-Plane Timing:</label>
+                <input type="text" class="input_text" id="dl_c_time" name="name5" placeholder="500000">
+                <label for="test">DL U-Plane Timing:</label>
+                <input type="text" class="input_text" id="dl_u_time" name="name5" placeholder="400000">
+                <div class="submit_btn">
+                    <button type="button" class="btn btn-success">Submit</button>
+                    <button type="reset" class="btn btn-reset">Reset</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div>Copyright &copy; since 2019-2023</div>
+        
+    </footer>
+</body>
+
+</html>

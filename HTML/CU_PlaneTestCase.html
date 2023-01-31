@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap" rel="stylesheet">
+    <title>CU Plane Conformance</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        // $("#flip").click(function(){
+        //   $("#panel").slideToggle("slow");
+        // });
+        // $(".cu_btn").click(function(){
+        //     $(".cu_show").slideToggle("slow");
+        // });
+        // });
+        // $(document).ready(function(){
+        $(".dl_btn").click(function(){
+            $(".dl_show").slideToggle("slow");
+        });
+        $(".ul_btn").click(function(){
+            $(".ul_show").slideToggle("slow");
+        });
+        });
+    </script>
+    <link rel="stylesheet" href="../css/testCase.css">
+</head>
+
+<body>
+    <header class="header">
+        <div id="left">
+            <span class="full-view"><img src="/vvdn_logo.png" alt="vvdn_logo"></span>
+            <span class="short-view"><img src="/vvdn.png" alt="vvdn_logo"></span>
+            <span ali class="full-text"><h3>CU Plane Conformance Test Cases</h3></span> 
+            <span class="short-text"><h3>CU Conformance</h3></span> 
+        </div>
+    </header>
+    <main class="main_con">
+        <div id="side_menu">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="cu_btn"><a href="#">CU Plane <span></span></a>
+                    <ul class="cu_show">
+                        <li class="dl_btn"><a href="#">Downlink<span> &nabla;</a></span>
+                            <ul class="dl_show">
+                                <li><a href="#">Base</a></li>
+                                <li><a href="#">Extended</a></li>
+                                <li><a href="#">No Compression</a></li>
+                                <li><a href="#">9 Bit</a></li>
+                                <li><a href="#">12 Bit</a></li> 
+                                <li><a href="#">14 Bit</a></li>
+                            </ul>
+                        </li>
+                        <li class="ul_btn"><a href="#">Uplink<span> &nabla;</a></span>
+                            <ul class="ul_show">
+                                <li><a href="#">Base</a></li>
+                                <li><a href="#">Extended</a></li>
+                                <li><a href="#">No Compression</a></li>
+                                <li><a href="#">9 Bit</a></li>
+                                <li><a href="#">12 Bit</a></li> 
+                                <li><a href="#">14 Bit</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div id="main_body">
+            <form action="recore_data.php" class="slect_case">
+                <label for="test">Test Model:</label>
+                <select name="test_m" id="test_mod">
+                    <option value="pn9">PN9</option>
+                    <option value="pn23">PN23</option>
+                </select>
+                <div class="submit_btn">
+                    <button type="button" class="btn btn-success">Submit</button>
+                    <button type="reset" class="btn btn-reset">Reset</button>
+                </div>
+                <label for="validationTextarea" class="form-label">Output</label>
+                <textarea class="ouput" id="validationTextarea" placeholder="Output" required rows="20"></textarea>
+            </form>
+        </div>
+    </main>
+    <footer class="footer">
+        <div>
+            Copyright &copy; since 2019-2023
+        </div>
+    </footer>
+</body>
+
+</html>

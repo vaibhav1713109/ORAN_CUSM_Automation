@@ -5,14 +5,6 @@
 # Copyright (c) 2016 - 2022 VVDN Technologies Pvt Ltd.                                          #
 # All rights reserved                                                                           #
 #-----------------------------------------------------------------------------------------------#
-#                                                                                               #
-# @file   : VXT_Script.py                                                                       #
-# @brief  : Script to do VXT function and will take screen shots.                               #
-# @author : Muhammed Siyaf E K, VVDN Technologies Pvt. Ltd (muhammed.siyaf@vvdntech.in)         #
-# @Supervision : Sebu Mathew , VVDN Technologies Pvt. Ltd (sebu.mathew@vvdntech.in)             #
-# @Support Given : Hariharan R, VVDN Technologies Pvt. Ltd (hariharan.r@vvdntech.in)            #
-# @Support Given : Umamaheswari E, VVDN Technologies Pvt. Ltd (e.umamaheswari@vvdntech.in)      #
-# @Support Given : Athulya Saju, VVDN Technologies Pvt. Ltd (athulya.saju@vvdntech.in)          #
 #################################################################################################
 
 
@@ -33,24 +25,52 @@ def scpi_write(InstrObj, cmnd):
         except Exception as e:
             print(e)
 
-#    status = InstrObj.query('*OPC?')
-#    time.sleep(10)
+def Check_EVM(InstrObj):
+    for _ in range(10):
+        try:
+            time.sleep(3)
+            InstrObj.timeout = 5000
+            CMD = ':FETCh:EVM000001?'
+            Res = InstrObj.query_ascii_values(CMD)
+            captured_evm = "{:.2f}".format(float(Res[1]))
+            if float(captured_evm) < 5:
+                return True
+            else:
+                return False
+        except Exception as e:
+            # INS.close()
+            print('{} Check_EVM'.format(e))
+    else:
+        return 'Timeout expired before operation completed. Check_EVM'
 
-#    if int(status) != 1:
-
-#        return True
+def Check_Power(InstrObj):
+    for _ in range(10):
+        try:
+            time.sleep(3)
+            InstrObj.timeout = 5000
+            CMD = ':FETC:CHP?'
+            Res = InstrObj.query_ascii_values(CMD)
+            output_power = "{:.2f}".format(float(Res[1]))
+            if float(output_power) > 22 and float(output_power) < 25:
+                return True
+            else:
+                return False
+        except Exception as e:
+            # INS.close()
+            print('{} Check_Power'.format(e))
+    
+    else:
+        return 'Timeout expired before operation completed. Check_Power'
 
 def run_scpi_cmnd(InstrObj, scpi_cmds, sub_folder):
 
     for scpi in scpi_cmds:
-        #type(scpi)
-        #print(scpi)
         scpi_write(InstrObj, scpi)
-        # print(InstrObj.write(scpi))
-        
         time.sleep(1) 
     print("sleep start")
     time.sleep(5)
+    Power = Check_Power(InstrObj)
+    EVM = Check_Power(InstrObj)
     filepath = r"C:\temp\capture.png"
     InstrObj.write(":MMEM:STOR:SCR '{}'".format(filepath))
     print("print taken")
@@ -64,6 +84,7 @@ def run_scpi_cmnd(InstrObj, scpi_cmds, sub_folder):
     newFile.close()
     InstrObj.close()
     print("Constellation Saved")
+    return Power, EVM
 
 
 def Constellation_check_DL_FDD(bands, sub_folder, DL_Center_Freq, Power_Value, VXT_Add, Ext_Gain):
@@ -237,4 +258,3 @@ def RF_OFF(VXT_Add):
         #type(scpi)
         #print(scpi)
         scpi_write(InstrObj, scpi)
-
