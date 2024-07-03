@@ -8,7 +8,6 @@ README.md File Should Contain following info:
     4.Build Artifacts/Image Output Path.
     5.Kindly add the .gitignore file based on your project.
 
-Repo URL: https://gitlab.vvdntech.com:8081/oran_qa_automation/radi_bn28.git
 
 ***Keysight ORAN Studio-Automation***
 
